@@ -18,7 +18,7 @@ from Quiz import generate_quiz, fetch_latest_lesson
 from auth import verify_firebase_token, oauth2_scheme
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/hp/Desktop/Project/Talk-Ease/talkease-d404e-firebase-adminsdk-fbsvc-899cf3b3c0.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path to your json file"
 db = firestore.Client()  # Firestore Database
 
 app = FastAPI()
